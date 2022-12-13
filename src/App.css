@@ -1,0 +1,34 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(219, 13, 54);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width: 100vw;
+  overflow-x:hidden;
+}
+
+pre{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.item{
+  border: #000;
+}
+
+h2{
+  margin-left: 50px;
+}
+
+span{
+  font-weight: 600;
+  color: #16E2F5;
+}
