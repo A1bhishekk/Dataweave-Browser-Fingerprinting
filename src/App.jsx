@@ -37,7 +37,7 @@ const App = () => {
       <div className='container'>
         <div className='item'>
           <h1 style={{ textAlign: "center",color:"blueviolet" }}>Browser Fingerprinting</h1>
-          <h2>Visitor ID:<span> {visitorId}</span></h2>
+          <h2>Visitor ID:<span className="fingerprint"> {visitorId}</span></h2>
           <h2>Device Memory:<span> {ram}</span></h2>
           <h2>Browser:<span> {browser}</span></h2>
           <h2>Timezone:<span> {timezone}</span></h2>
